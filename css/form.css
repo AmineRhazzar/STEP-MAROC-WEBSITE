@@ -1,0 +1,77 @@
+body {
+    color: #000;
+    background: #fcda2e;
+    font-family: "Roboto", sans-serif;
+    overflow-x:hidden;
+
+}
+
+nav{
+    width: 100vw;
+    height: 7vh;
+    padding: 1rem 0;
+    background-color: black;
+    align-items: center;
+    display: flex;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.contact-form h1 {
+    font-size: 42px;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    line-height: 7rem;
+}
+.contact-form .form-group {
+   
+}
+
+.contact-form .form-control, .contact-form .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.contact-form .form-control {
+    border-color: #e2c705;
+}
+
+.contact-form .form-control:focus {
+    border-color: #d8b012;
+    box-shadow: 0 0 8px #dcae10;
+}
+
+.contact-form .btn-primary {
+    min-width: 250px;
+    color: #fcda2e;
+    background: #000;
+    margin-top: 20px;
+    border: none;
+}
+
+.contact-form .btn-primary:hover {
+    color: #fff;
+}
+
+.contact-form .btn-primary i {
+    margin-right: 5px;
+}
+
+.contact-form label {
+    opacity: 0.9;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+
