@@ -145,7 +145,7 @@
           reconstruction des ouvrages d’art et ponts.</p>
       </div>  
     </div>
-    <div class="domaine" id="batiment">
+    <div class="domaine batiment" id="reverse">
       <div class="domaine-image">
         <img src="../images/domaines/batiment0.jpg" alt="">
       </div>
@@ -237,7 +237,7 @@
       'slow');
     });
     $(".to-batiment").click(function() {
-      $('html,body').animate({scrollTop: $("#batiment").offset().top - 100 },
+      $('html,body').animate({scrollTop: $(".batiment").offset().top - 100 },
       'slow');
     });
   </script>
