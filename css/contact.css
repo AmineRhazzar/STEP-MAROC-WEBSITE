@@ -208,9 +208,9 @@ body div{
   }
 
 .container{
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
-    background-color: antiquewhite;
+    background-color: rgb(59, 59, 59);
     display: flex;
     flex-wrap: wrap;
 }
@@ -249,13 +249,16 @@ iframe{
 }
 
 .contact-form{
-    background-color: rgb(233, 215, 113);
-    width: 50vw;
+    background-color: rgb(233, 216, 124);
+    border-radius: 25px;
+    width: 40vw;
+    margin: auto;
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: -5px 5px 10px 0 black;
 }
 
 .contact-form h1{
@@ -263,7 +266,7 @@ iframe{
     font-weight: 400;
     font-size: 3rem;
     height: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
     width: 100%;
 }
@@ -298,7 +301,7 @@ textarea{
     font-size: 1.1rem;
 }
 .btn{
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: .8rem 5rem;
     height: 3rem;
     font-size: 1rem;
@@ -310,6 +313,10 @@ textarea{
     color: white;
     cursor: pointer;
     transition: 0.3s all ease;
+}
+
+.fa-phone{
+  transform:rotateY(180deg);
 }
 
 .btn .fa{
@@ -339,10 +346,15 @@ textarea{
         display: flex;
         flex-direction: column;
     }
-    .adress, .contact-form{
+    .adress{
         width: 100vw;
         max-width: none;
     }
+
+  .contact-form{
+    width: 70%;
+    margin-bottom: 5rem;
+  }
     .contact-form h1{
         font-size: 2rem;
     }
@@ -397,7 +409,6 @@ input:focus, textarea:focus{
   font-weight: bold;
   font-size: 16px;
   padding: 70px 50px 50px 50px;
-  margin-top: 100px;
 }
 
 .footer .footer-left,
