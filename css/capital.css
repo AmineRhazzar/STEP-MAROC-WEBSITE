@@ -67,7 +67,7 @@ nav {
 }
 
 svg {
-  height: 100vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -228,6 +228,7 @@ svg {
 .capital-materiel {
   background-color: rgb(241, 241, 235);
   position: relative;
+  padding-top: 2rem;
 }
 
 .section-1 {

@@ -91,7 +91,7 @@
               $Msg = " Votre message a été envoyé ";
               echo '<div class="alert alert-success">'.$Msg.'</div>';
           }
-        ?>        
+        ?> 
         <form action="./process.php" method="post">
           <div class="form-group">
             <label for="inputName">Nom Complet</label>
