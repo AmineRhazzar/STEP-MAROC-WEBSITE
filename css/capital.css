@@ -26,27 +26,31 @@ nav {
 }
 
 .capital-humain {
-  background-color: #eeeeee;
+  background-color: white;
 }
 .capital-humain-titre {
-  background-color: black;
-  color: white;
-  font-size: 1.3rem;
-  padding-top: 85px;
+  color: black;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.2em;
+  text-decoration-color: #FEBF00;
+  text-decoration-thickness: 5px;
+  padding-top: 120px;
   text-align: center;
   padding-bottom: 20px;
 }
 .capital-materiel_titre {
-  background-color: black;
-  color: white;
-  font-size: 1.3rem;
+  color: black;
   padding: 1.5rem 1rem;
+  text-align: center;
+  text-decoration: dotted underline;
+  text-underline-offset: 0.2em;
+  text-decoration-color: #FEBF00;
+  text-decoration-thickness: 5px;
 }
 
 .capital-humain-titre span {
   color: #ffbc00;
   font-size: 1.8rem;
-  padding-left: 2rem;
 }
 .capital-materiel_titre span {
   color: #ffbc00;
@@ -63,7 +67,7 @@ nav {
 }
 
 svg {
-  height: 100vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -222,12 +226,13 @@ svg {
 }
 
 .capital-materiel {
-  background-color: #f7f7f7;
+  background-color: rgb(241, 241, 235);
   position: relative;
+  padding-top: 2rem;
 }
 
 .section-1 {
-  background-color: #000000;
+  background-color: rgb(241, 241, 235);
   position: relative;
   height: fit-content;
   width: 100vw;
@@ -235,21 +240,23 @@ svg {
 }
 
 .description-cont {
-  background-color: #000000;
-  color: rgb(216, 215, 215);
-  padding: 2rem 1rem;
+  background-color: rgb(241, 241, 235);
+  color: black;
+  padding: 2rem 0;
+  width: 80%;
+  margin: auto;
 }
 
 .description-1 {
-  background-color: black;
+  background-color: rgb(241, 241, 235);
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 100%;
 }
 
 .img-container {
   width: 100vw;
-  background-color: #000;
+  background-color: rgb(241, 241, 235);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,11 +266,10 @@ svg {
 
 @media (max-width: 1045px) {
   .description-cont {
-    color: wheat;
+    color: black;
   }
 
   .description-1 {
-    background-color: black;
     font-size: 1.2rem;
     padding: 1rem;
   }
@@ -354,7 +360,11 @@ svg {
 #carousel-2:checked ~ .control-2,
 #carousel-3:checked ~ .control-3,
 #carousel-4:checked ~ .control-4,
-#carousel-5:checked ~ .control-5 {
+#carousel-5:checked ~ .control-5,
+#carousel-6:checked ~ .control-6,
+#carousel-7:checked ~ .control-7,
+#carousel-8:checked ~ .control-8,
+#carousel-9:checked ~ .control-9 {
   display: block;
 }
 
@@ -411,6 +421,26 @@ svg {
   ~ .control-5
   ~ .carousel-indicators
   li:nth-child(5)
+  .carousel-bullet,
+#carousel-6:checked
+  ~ .control-6
+  ~ .carousel-indicators
+  li:nth-child(6)
+  .carousel-bullet,
+#carousel-7:checked
+  ~ .control-7
+  ~ .carousel-indicators
+  li:nth-child(7)
+  .carousel-bullet,
+#carousel-8:checked
+  ~ .control-8
+  ~ .carousel-indicators
+  li:nth-child(8)
+  .carousel-bullet,
+#carousel-9:checked
+  ~ .control-9
+  ~ .carousel-indicators
+  li:nth-child(9)
   .carousel-bullet {
   color: #ffbc00;
 }
