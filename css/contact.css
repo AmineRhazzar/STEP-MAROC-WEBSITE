@@ -278,7 +278,7 @@ iframe {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: -5px 5px 10px 0 black;
+  box-shadow: -5px 5px 10px 0 rgb(37, 37, 37);
 }
 
 .contact-form h1 {
