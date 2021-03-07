@@ -32,24 +32,25 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <header id="navbar" class="topnav">
           <div id="navbar-mobile">
-                <div id="logo"><img class="default" src="../images/STEP logo/STEP-logo-white.png" alt="">
-          <img class="animate" src="../images/STEP logo/STEP-logo.png" alt="">
-        </div>
+            <div id="logo"><img class="default" src="./STEP-logo-white.png" alt="">
+              <img class="animate" src="./STEP-logo.png" alt="">
+            </div>
             <div id="icon"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i></a>
             </div>
           </div>
             <div class="mobile">
               <a href="./contact.php" class="item" id="active">Contact</a>
-              <a href="./about.html" class="item" >Qui sommes-nous?</a>
+              <a href="./about.html" class="item" >About</a>
               <a href="./capital.html" class="item">Capital</a>
               <a href="./domaines.html" class="item">Domaines</a>    
-              <a href="../index.html" class="item">Acceuil</a>
+              <a href="../index.html" class="item">Accueil</a>
             </div>
         </header>
         <div class="opening">
           <div class="domaines-titre">
-            <h1>CONTACTEZ-NOUS !</h1>
+            <h1>TITLE</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora magnam iusto corrupti labore nihil rem earum nam quibusdam provident. Maxime eaque illo possimus sapiente voluptates sit neque, praesentium velit natus.</p>
           </div>      
         </div>  
 
@@ -59,7 +60,7 @@
           <h3><i class="fas fa-envelope"></i><span>Email : </span>contact@stepmaroc.ma</h3>
         </div>
         <div class="group">
-          <h3><i class="fas fa-phone m"></i><span>Numéro de Téléphone : </span>+212 522 226 290</h3>
+          <h3><i class="fas fa-phone mine"></i><span>Numéro de Téléphone : </span>+212 522 226 290</h3>
         </div>
         <div class="group">
           <h3><i class="fas fa-map-marker-alt"></i><span>Adresse : </span>223, Bd. Abdelmoumen Résidence Reda, N°2, Casablanca, Maroc.</h3>
@@ -167,12 +168,12 @@
             </div>
           </div>
           <div class="footer-right col-md-4 col-sm-6">
-            <div id="logo2">          <img class="animate" src="../images/STEP logo/STEP-logo-white.png" alt="">
+            <div id="logo2">          <img class="animate" src="./STEP-logo-white.png" alt="">
             </div>                <p class="menu">
-              <a href="../index.html"> Acceuil</a> |
+              <a href="../index.html"> Accueil</a> |
               <a href="./domaines.html"> Domaines</a> |
               <a href="./capital.html"> Capital</a> |
-              <a href="./about.html"> Qui sommes-nous?</a> |
+              <a href="./about.html"> About</a> |
               <a href="./contact.php" id="active"> Contact</a> |
             </p>
             <p class="name"> STEP Maroc &copy; 2021</p>

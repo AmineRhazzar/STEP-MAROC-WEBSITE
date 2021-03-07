@@ -48,6 +48,17 @@ nav {
   text-decoration-thickness: 5px;
 }
 
+.capital-humain_titre:first-of-type{
+  margin: 2rem 0 1rem 0;
+  color: black;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-decoration: dotted underline;
+  text-underline-offset: 0.2em;
+  text-decoration-color: #FEBF00;
+  text-decoration-thickness: 5px;
+}
+
 .capital-humain-titre span {
   color: #ffbc00;
   font-size: 1.8rem;
