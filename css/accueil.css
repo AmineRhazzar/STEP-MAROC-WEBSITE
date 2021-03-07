@@ -148,7 +148,7 @@ height: 60%;
 
 .quality{
   display: flex;
-  background-color: rgb(242, 255, 255);
+  background-color: rgb(241 241 235);
   align-items: center;
   justify-content: center;
 }
@@ -227,7 +227,7 @@ height: 60%;
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: rgb(242, 255, 255);
+  background-color: rgb(241 241 235);
   align-items: center;
 }
 .environnement p{
@@ -477,7 +477,7 @@ height: 60%;
     position: fixed;
     width: 100%;
     height: 85px;
-    z-index: 1;
+    z-index: 1000;
     display: flex;
     align-items: center;
     transition: 0.6s;
@@ -570,7 +570,7 @@ height: 60%;
     }
   }
   
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1300px) {
     .topnav .mobile {display: none;}
     .topnav{
       height: auto;
@@ -597,7 +597,7 @@ height: 60%;
 
   }
   
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 1300px) {
     .topnav.responsive {position: fixed;
       background-color: white;}
     .topnav.responsive .icon {
@@ -623,7 +623,6 @@ height: 60%;
     .topnav.responsive .mobile{
       display: flex;
       flex-direction: column-reverse;
-      background-color: rgb(246, 255, 255);
 
 
         }
@@ -634,7 +633,7 @@ height: 60%;
       color:#FEBF00;
     }
     .topnav.responsive #navbar-mobile{
-      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+
 
     }
   
@@ -748,4 +747,47 @@ height: 60%;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+.swiper-container {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+}
+.swiper-slide img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+
+  
+}
+.swiper-pagination{
+  margin-top: 50px;
 }

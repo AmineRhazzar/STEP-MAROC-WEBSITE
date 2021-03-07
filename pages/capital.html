@@ -24,27 +24,31 @@
 </head>
 
 <body>
-    <!-- navigation bar -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <header id="navbar" class="topnav">
-        <div id="logo"><img class="default" src="../images/STEP logo/STEP-logo-white.png" alt="">
-            <img class="animate" src="../images/STEP logo/STEP-logo.png" alt="">
-        </div>
-        <div class="mobile">
-            <a href="./contact.php" class="item">Contact</a>
-            <a href="./about.html" class="item" class="active">About</a>
-            <a href="./capital.html" class="item">Capital</a>
-            <a href="./domaines.html" class="item">Domaines</a>
-            <a href="../index.html" class="item">Acceuil</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        </div>
-    </header>
+          <!-- navigation bar -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <header id="navbar" class="topnav">
+            <div id="navbar-mobile">
+              <div id="logo"><img class="default" src="../images/STEP logo/STEP-logo-white.png" alt="">
+                <img class="animate" src="../images/STEP logo/STEP-logo.png" alt="">
+              </div>
+              <div id="icon"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+              </div>
+            </div>
+              <div class="mobile">
+                <a href="./contact.php" class="item">Contact</a>
+                <a href="./about.html" class="item" >Qui sommes-nous?</a>
+                <a href="./capital.html" class="item" id="active">Capital</a>
+                <a href="./domaines.html" class="item" >Domaines</a>    
+                <a href="../index.html" class="item">Accueil</a>
+              </div>
+          </header>
+          <div class="opening">
+            <div class="capital-titre">
+                <h1>CAPITAL</h1>
+            </div>      
+          </div>  
     <div class="capital-humain">
-        <h1 class="capital-humain-titre">STEP - UNE ENTREPRISE &Agrave; CAPITAL HUMAIN</h1>
         <div class="organigram">
             <svg width="3876" height="2763" viewBox="0 0 3876 2763" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path class="child-child" d="M3237.19 2102V2614.41" stroke="black" stroke-width="7" />
@@ -347,40 +351,17 @@
                     <label for="carousel-8" class="carousel-control prev control-9">‹</label>
                     <label for="carousel-1" class="carousel-control next control-9">›</label>
 
-
-
-
-                    <ol class="carousel-indicators">
-                        <li>
-                            <label for="carousel-1" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-2" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-3" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-4" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-5" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-6" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-7" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-8" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-9" class="carousel-bullet">•</label>
-                        </li>
-                    </ol>
                 </div>
             </div>
+
+            <script>
+                var i = 0;
+                setInterval(()=>{
+                    const nextArray = document.querySelectorAll('.next');
+                    nextArray[i].click();
+                    i = (i+1) % nextArray.length;
+                } , 2500)
+            </script>
 
         </div>
     </div>
@@ -418,11 +399,11 @@
             <div id="logo2"> <img class="animate" src="../images/STEP logo/STEP-logo-white.png" alt="">
             </div>
             <p class="menu">
-                <a href="#"> Acceuil</a> |
-                <a href="#"> Domaines</a> |
-                <a href="#"> Capital</a> |
-                <a href="#"> About</a> |
-                <a href="#"> Contact</a> |
+                <a href="../index.html"> Accueil</a> |
+                <a href="./domaines.html"> Domaines</a> |
+                <a href="./capital.html"  id="active"> Capital</a> |
+                <a href="./about.html"> Qui sommes-nous?</a> |
+                <a href="./capital.html"> Contact</a> |
             </p>
             <p class="name"> STEP Company &copy; 2021</p>
         </div>
