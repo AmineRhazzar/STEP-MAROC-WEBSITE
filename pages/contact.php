@@ -74,7 +74,7 @@
     </div>
       <div class="contact-form">
           
-        <h1>Contactez-Nous&nbsp;!</h1>
+        <h1>Contact</h1>
         <?php 
           $Msg = "";
           if(isset($_GET['error']))
