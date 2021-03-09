@@ -41,7 +41,7 @@
           </div>
             <div class="mobile">
               <a href="./contact.php" class="item" id="active">Contact</a>
-              <a href="./about.html" class="item" >About</a>
+              <a href="./about.html" class="item" >Qui sommes-nous?</a>
               <a href="./capital.html" class="item">Capital</a>
               <a href="./domaines.html" class="item">Domaines</a>    
               <a href="../index.html" class="item">Accueil</a>
@@ -52,7 +52,7 @@
             <h1>TITLE</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora magnam iusto corrupti labore nihil rem earum nam quibusdam provident. Maxime eaque illo possimus sapiente voluptates sit neque, praesentium velit natus.</p>
           </div>      
-        </div>  
+        </div> 
 
     <div class="container">
       <div class="adress">
@@ -173,7 +173,7 @@
               <a href="../index.html"> Accueil</a> |
               <a href="./domaines.html"> Domaines</a> |
               <a href="./capital.html"> Capital</a> |
-              <a href="./about.html"> About</a> |
+              <a href="./about.html"> Qui sommes-nous?</a> |
               <a href="./contact.php" id="active"> Contact</a> |
             </p>
             <p class="name"> STEP Maroc &copy; 2021</p>
