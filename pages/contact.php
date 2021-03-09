@@ -32,8 +32,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <header id="navbar" class="topnav">
           <div id="navbar-mobile">
-            <div id="logo"><img class="default" src="./STEP-logo-white.png" alt="">
-              <img class="animate" src="./STEP-logo.png" alt="">
+            <div id="logo"><img class="default" src="../images/STEP logo/STEP-logo-white.png" alt="">
+              <img class="animate" src="../images/STEP logo/STEP-logo.png" alt="">
             </div>
             <div id="icon"> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i></a>
