@@ -46,10 +46,6 @@ body div {
   color: rgb(243, 242, 242);
   font-family: 'Ubuntu', sans-serif;
   font-size: 4.5vw;
-  text-decoration: underline  dotted ;
-  text-underline-offset: 0.3em;
-  text-decoration-color:#FEBF00;
-  text-decoration-thickness: 15px;
   padding-bottom: 20px;
 }
 
@@ -309,6 +305,12 @@ form {
   width: 80%;
   display: flex;
   flex-direction: column;
+}
+
+.group{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
 }
 
 label {
