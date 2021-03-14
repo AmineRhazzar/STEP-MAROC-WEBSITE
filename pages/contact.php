@@ -48,10 +48,11 @@
             </div>
         </header>
         <div class="opening">
+          <img src="../images/contact/bg2.jpg" alt="" />
           <div class="domaines-titre">
-            <h1>TITLE</h1>
+            <h1>CONTACT</h1>
           </div>      
-        </div> 
+        </div>  
 
         <div class="container">
       <div class="adress">

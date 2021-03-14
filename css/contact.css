@@ -21,19 +21,31 @@ body div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/contact/bg2.jpg");
-  /* to fix the image in the page*/
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
   width: auto;
-  height: 420px;
+  height: 300px;
+  overflow: hidden;
 }
 #active{
   color: #FEBF00;
 }
+
+.opening img{
+  position: absolute;
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+@media (max-width:770px){
+  .opening img{
+    width: auto !important;
+    height: 100% !important;
+  }
+}
 .domaines-titre{
+  position: absolute;
+  color: #ffc000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,9 +55,9 @@ body div {
 
 }
 .domaines-titre h1{
-  color: rgb(243, 242, 242);
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 4.5vw;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  letter-spacing: .3rem;
   padding-bottom: 20px;
 }
 
