@@ -23,7 +23,7 @@ body div {
   align-items: center;
   position: relative;
   width: auto;
-  height: 300px;
+  height: 420px;
   overflow: hidden;
 }
 #active{
@@ -37,7 +37,7 @@ body div {
   max-width: none !important;
 }
 
-@media (max-width:770px){
+@media (max-width:1100px){
   .opening img{
     width: auto !important;
     height: 100% !important;
@@ -45,7 +45,7 @@ body div {
 }
 .domaines-titre{
   position: absolute;
-  color: #ffc000;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@ body div {
 
 }
 .domaines-titre h1{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
   letter-spacing: .3rem;
   padding-bottom: 20px;
@@ -236,7 +236,7 @@ img {
 .container {
   height: fit-content;
   width: 100vw;
-  background-color: rgb(59, 59, 59);
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
@@ -248,9 +248,9 @@ img {
 .adress {
   max-width: 50vw;
   height: 120vh;
-  background-color: rgb(59, 59, 59);
+  background-color: white;
   padding: 1rem;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -291,7 +291,7 @@ iframe {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  box-shadow: -5px 5px 10px 0 rgb(37, 37, 37);
+  box-shadow: -5px 5px 14px 0 rgb(37, 37, 37);
 }
 
 .contact-form h1 {
