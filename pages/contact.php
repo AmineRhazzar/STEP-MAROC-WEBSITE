@@ -168,8 +168,10 @@
             </div>
           </div>
           <div class="footer-right col-md-4 col-sm-6">
-            <div id="logo2">          <img class="animate" src="./STEP-logo-white.png" alt="">
-            </div>                <p class="menu">
+            <div id="logo2">
+              <img class="animate" src="../images/STEP logo/STEP-logo-white.png" alt="">
+            </div>
+            <p class="menu">
               <a href="../index.html"> Accueil</a> |
               <a href="./domaines.html"> Domaines</a> |
               <a href="./capital.html"> Capital</a> |
