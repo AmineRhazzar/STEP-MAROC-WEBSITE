@@ -52,10 +52,7 @@ form.addEventListener("submit", (e) => {
     
     fetch('https://nodemailerforstep.herokuapp.com/',{
         method:"POST",
-        body: JSON.stringify(emailComponents),
-        headers:{
-            'Content-Type': 'application/json'
-        }
+        body: JSON.stringify(emailComponents)
     }).then(res => res.status)
         .then(status => {
             hideLoader();
