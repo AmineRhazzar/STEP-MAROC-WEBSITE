@@ -47,7 +47,7 @@ form.addEventListener("submit", (e) => {
         email,
         subject,
         textMsg
-    };
+    }; 
     showLoader();
      
     fetch('https://nodemailerforstep.herokuapp.com/',{
