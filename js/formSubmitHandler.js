@@ -50,7 +50,7 @@ form.addEventListener("submit", (e) => {
     };
     showLoader();
     
-    fetch('http://localhost:5000/',{
+    fetch('https://nodemailerforstep.herokuapp.com/',{
         method:"POST",
         body: JSON.stringify(emailComponents),
         headers:{
