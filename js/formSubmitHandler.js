@@ -54,7 +54,7 @@ form.addEventListener("submit", (e) => {
         method:"POST",
         body: JSON.stringify(emailComponents),
         headers:{
-            'Content-type': 'application/json; charset=UTF-8'
+            'Content-Type': 'application/json'
         }
     }).then(res => res.status)
         .then(status => {
